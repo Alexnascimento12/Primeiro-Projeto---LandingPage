@@ -1,0 +1,149 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: 'Arimo', sans-serif;
+    font-family: 'Kanit', sans-serif;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    background-image: url(https://media.gazetadopovo.com.br/amp-stories/2022/07/18140111/laptop-unsplash-01.jpg);
+  
+
+}
+
+.conteudo-principal {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.Principal {
+    display: flex;
+    flex-direction: column;
+    margin: 130px 0 0 30px;
+}
+
+.img-logo {
+    width: 200px;
+
+}
+
+.h1 {
+    width: 850px;
+    font-size: 55px;
+    line-height: 60px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.h2 {
+    width: 850px;
+    font-size: 25px;
+    line-height: 40px;
+    font-weight: 400;
+    color: white;
+    margin-bottom: 20px;
+}
+
+
+
+    .botao {
+        width: 380px;
+        height: 50px;
+        border: none;
+        outline: none;
+        color: #fff;
+        background: #8B36A1;
+        background-image: linear-gradient( to right, #8B36A1, #B96CC7 );
+        cursor: pointer;
+        position: relative;
+        z-index: 0;
+        border-radius: 10px;
+        font-size: 20px;
+    }
+
+.botao:hover {
+    background-image: linear-gradient( to left, #8B36A1, #B96CC7 );
+   
+}
+   
+
+.img-comprasegura {
+    width: 400px;
+
+}
+
+.img-computadores {
+    width: 700px;
+
+}
+
+
+.caixa-texto {
+    font-size: 30px;
+    text-align: center;
+    margin-top: 30px;
+    color: white;
+    background-color: rgb(0, 0, 0, 0.5);
+}
+
+.secao-footer {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+}
+
+.caixa01 {
+    color: white;
+    width: 400px;
+    text-align: left;
+    background-color: rgb(0, 0, 0, 0.5);
+    padding: 15px;
+    border-radius: 30px;
+
+}
+
+
+.icone01 {
+    width: 60px;
+}
+
+.caixa02 {
+
+    color: white;
+    width: 400px;
+    text-align: center;
+    background-color: rgb(0, 0, 0, 0.5);
+    padding: 15px;
+    border-radius: 30px;
+    text-align: left;
+}
+
+.icone02 {
+    width: 60px;
+    justify-content: left;
+}
+
+.icone03 {
+    width: 60px;
+    justify-content: left;
+
+}
+
+.caixa03 {
+    color: white;
+    width: 400px;
+    text-align: center;
+    background-color: rgb(0, 0, 0, 0.5);
+    padding: 15px;
+    border-radius: 30px;
+    text-align: left;
+}
